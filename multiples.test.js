@@ -16,7 +16,13 @@ describe('multiples', () => {
   //   expect(multiples(4, 27)).toEqual([4,8,12,16,20,24]);
   // });
 
-  it('multiples(5,7) should return [5]', () => {
-    expect(multiples(5,7)).toEqual([5]);
+  // it('multiples(5,7) should return [5]', () => {
+  //   expect(multiples(5,7)).toEqual([5]);
+  // });
+
+  it("multiples(11,54) should return [11,22,33,44]", () => {
+    expect(multiples(11,54)).toEqual([11,22,33,44]);
+    
   });
+
 });
